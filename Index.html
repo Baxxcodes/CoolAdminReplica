@@ -1,0 +1,329 @@
+<html>
+
+<head>
+    <title>Cool Admin</title>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Cool Admin.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <div><img src="logo.webp"></div>
+            <div id="menu"><i class="fa fa-list" style="font-size: 30px; color: black;"></i></div>
+        </div>
+
+        <div class="under">
+
+            <div class="search"> <input type="text" id="sch" placeholder="search for datas & reports"><button><i
+                        class="fa fa-search"></i></button>
+            </div>
+
+            <div class="icons">
+                <div class="icons1"><i class="material-icons" style="font-size: 20px;">sms</i><i class="fa fa-envelope"
+                        style="font-size: 20px;"></i><i class="fa fa-bell" style="font-size: 20px;"></i></div>
+                <div class="icons2"> <img src="avatar.webp" width="50px" height="50px"> John Doe</div>
+            </div>
+
+        </div>
+
+    </div> <br id="fbr">
+
+    <div class="Flex-container">
+
+        <div class="aside">
+            <ul>
+                <br><br>
+                <b>
+                    <li><a href="#"> <i class="fa fa-dashboard"></i> Dashboard </a></li><br><br><br>
+                    <li><a href="#"><i class="fa fa-bar-chart"></i>Charts</a></li><br><br><br>
+                    <li><a href="#"><i class="fa fa-table"></i>Tables</a></li><br><br><br>
+                    <li><a href="#"><i class="fa fa-check-square-o"></i>Forms</a></li><br><br><br>
+                    <li> <a href="#"> <i class="fa fa-calendar"></i>Calendar</a></li><br><br><br>
+                    <li><a href="#"><i class="fa fa-map-marker"></i>Maps</a></li><br><br><br>
+                    <li> <a href="#"><i class="fa fa-book"></i>Pages</a></li><br><br><br>
+                    <li><a href="#"><i class="fa fa-laptop"></i> UI elements</a></li><br><br>
+                </b>
+            </ul>
+        </div>
+
+
+        <div class="main">
+
+
+            <div class="f1">
+                Credit card<br>
+                <hr>
+                <h2 style="text-align: center;"><b>Pay Invoice</b></h2>
+                <hr><br>
+                Payment Amount<br>
+                <input type="text" placeholder="100.00" name="amount"><br><br>
+                Name on Card<br>
+                <input type="text" name="cardname"><br><br>
+                Card Number<br>
+                <input type="text" name="cardnum"><br><br>
+
+                <div class="e">
+                    <div class="e1">Expiration<br> <input type="month" name="expmonth"></div>
+                    <div class="e1">security Code<br> <input type="text" name="SecCode"></div>
+                 </div>
+                <br>
+                <button><i class="fa fa-lock"></i> Pay $100.00</button>
+
+            </div>
+            <br>
+
+            <div class="f1">
+                Company Form<br>
+                <hr>
+                Company Name<br>
+                <input type="text" placeholder="Enter your Company name" name="Compname"><br><br>
+                VAT<br>
+                <input type="text" name="vat"><br><br>
+                Street<br>
+                <input type="text" name="str" placeholder="Enter your street name"><br><br>
+                City<br>
+                <input type="text" name="city" placeholder="Enter your city"><br><br>
+                Postal Code<br>
+                <input type="number" name="pcode"><br><br>
+                Country<br>
+                <input type="text" name="country"><br><br>
+
+
+            </div>
+
+
+            <div class="f1">
+                Basic Form Elements<br>
+                <hr>
+                Static<br>
+                Username<br>
+                Text Input<br>
+                <input type="text" placeholder="text"><br>This is a small text<br><br>
+                Email Input<br>
+                <input type="email" name="email" placeholder="enter mail"><br>please enter your mail<br><br>
+                Password<br>
+                <input type="password" name="pword" placeholder="password"><br>Please enter a complex
+                password<br><br>
+                Disabled Input<br>
+                <input type="text" name="disable" placeholder="Disabled" disabled><br><br>
+                Text Area<br>
+                <textarea>Content....</textarea><br><br>
+                Select<br>
+                <select name="options">
+                    <option>Option #1</option>
+                    <option>Option #2</option>
+                    <option>Option #3</option>
+                    <option>Option #4</option>
+                </select><br><br>
+                Select<br>
+                <select name="options">
+                    <option>Option #1</option>
+                    <option>Option #2</option>
+                    <option>Option #3</option>
+                    <option>Option #4</option>
+                </select><br><br>
+                Disabled Select<br>
+                <select name="options" disabled>
+                    <option>Option #1</option>
+                    <option>Option #2</option>
+                    <option>Option #3</option>
+                    <option>Option #4</option>
+                </select><br><br>
+
+
+                <div>
+
+                    <div class="radiooption">
+                        <div class="radio">Radio</div>
+                        <div class="option">
+                            <input type="radio" name="option1"> Option 1 <br> <br>
+                            <input type="radio" name="option2"> Option 2 <br> <br>
+                            <input type="radio" name="option3"> Option 3 <br> <br>
+                        </div>
+                    </div> <br>
+
+                    <div class="inlineradios">
+                        <div class="Inline">Inline Radios</div>
+                        <div class="radios">
+                            <input type="radio" name="option1"> One
+                            <input type="radio" name="option2"> Two
+                            <input type="radio" name="option3"> Three
+                        </div>
+                    </div> <br>
+
+                    <div class="radiooption">
+                        <div class="radio"> Checkboxes</div>
+                        <div class="option">
+                            <input type="checkbox" name="option1"> Option 1 <br> <br>
+                            <input type="checkbox" name="option2"> Option 2 <br> <br>
+                            <input type="checkbox" name="option3"> Option 3 <br> <br>
+                        </div>
+                    </div>
+
+                    <div class="inlineradios">
+                        <div class="Inline"> Checkboxes</div>
+                        <div class="radios">
+                            <input type="checkbox" name="option1"> One
+                            <input type="checkbox" name="option2"> Two
+                            <input type="checkbox" name="option3"> Three
+                        </div>
+                    </div> <br>
+
+
+                </div>
+                File Input<br>
+                <input type="file" name="myfile"><br><br>
+                Multiple File Input<br>
+                <input type="file" name="myfiles" multiple><br><br>
+
+                <div class="sub"><input type="submit" value="Submit" id="s"><input type="submit" value="Reset" id="r">
+                </div>
+
+
+            </div>
+
+
+            <div class="f1" id="inline">
+                Inline Form<br>
+                <hr>
+
+                Name<input type="text" placeholder="Jane Doe"><br>This is a small text<br><br>
+                Email <input type="email" name="mail" placeholder="jane.doe@example.com"><br><br>
+                <hr>
+                <input type="submit" value="Submit" id="s"><input type="submit" value="Reset" id="r">
+            </div>
+
+
+            <div class="f1">
+                Horizontal Form<br>
+                <hr>
+
+                Email <br>
+                <input type="email" name="email" placeholder="enter mail"><br>please enter your mail<br><br>
+                Password<br>
+                <input type="password" name="pword" placeholder="password"><br>Please enter a complex
+                password<br><br>
+                <hr>
+                <input type="submit" value="Submit" id="s"><input type="submit" value="Reset" id="r">
+            </div>
+
+
+            <div class="f1">
+                Normal Form<br>
+                <hr>
+
+                Email <br>
+                <input type="email" name="email" placeholder="enter mail"><br>please enter your mail<br><br>
+                Password<br>
+                <input type="password" name="pword" placeholder="password"><br>Please enter a complex
+                password<br><br>
+                <hr>
+                <input type="submit" value="Submit" id="s"><input type="submit" value="Reset" id="r">
+            </div>
+
+
+            <div class="f1">
+                Validation States Form<br>
+                <hr>
+
+                Input is Valid<br>
+                <input type="email" name="email" placeholder="enter mail"><br><br>
+                Input is Invalid<br>
+                <input type="password" name="pword" placeholder="password"><br><br>
+            </div>
+
+            <div class="f1">
+                Validation States Form<br>
+                <hr>
+
+                Input with success<br>
+                <input type="email" name="email"><br><br>
+                Input with warning<br>
+                <input type="password" name="pword"><br><br>
+                Input with error<br>
+                <input type="email" name="email"><br><br>
+
+            </div>
+
+            <div class="b1">
+                Buttons Groups
+                <hr>
+                <input type="text" name="username" placeholder="Username" style="width: 80%;"><button
+                    style="width: 20%;"><i class="fa fa-search"></i></button>
+                <br><br>
+                <button
+                    style="width: 20%;">Submit</button>
+                    <input type="text" name="username" placeholder="Username" style="width: 70%;">
+                <br><br>
+
+                <button style="width: 10%;"><a href="#" class="fa fa-facebook"></a></button>
+                <input type="text" name="username" placeholder="Username" style="width: 70%;" >
+                <button style="width: 10%;"><a href="#" class="fa fa-twitter"></a></button>
+
+
+
+
+            </div>
+
+            <div class="f1" id="but">
+                Example Form
+                <hr>
+                <input type="text" name="username" placeholder="Username" style="width: 90%;"><button
+                    style="width: 10%;"><i class="fa fa-user"></i></button>
+                <br><br>
+                <input type="email" name="mail" placeholder="E-mail" style="width: 90%;"><button style="width: 10%;"><i
+                        class="fa fa-envelope"></i></button>
+                <br><br>
+                <input type="password" name="password" placeholder="Password" style="width: 90%;"><button
+                    style="width: 10%;"><i class="fa fa-asterisk"></i></button>
+                <br><br>
+                <button style="background-color:black; color: white; width:20%;">Submit</button>
+
+            </div>
+
+            <div class="f1" id="but">
+                Example Form
+                <hr>
+                <button style="width: 10%;"><i class="fa fa-user"></i></button><input type="text" name="username"
+                    placeholder="Username" style="width: 90%;">
+                <br><br>
+                <button style="width: 10%;"><i class="fa fa-envelope"></i></button><input type="email" name="mail"
+                    placeholder="E-mail" style="width: 90%;">
+                <br><br>
+                <button style="width: 10%;"><i class="fa fa-asterisk"></i></button><input type="password"
+                    name="password" placeholder="Password" style="width: 90%;">
+                <br><br>
+                <button style="background-color:green; color: white; width:20%;">Submit</button>
+
+
+            </div>
+            <div class="d">
+                <div id="d1">  
+                    <input type="text" placeholder="col-1-sm"><br><br>
+                    <input type="text" placeholder="col-1-sm"><br><br>
+                    <input type="text" placeholder="col-1-sm"><br><br>
+                    <input type="text" placeholder="col-1-sm"><br><br>
+                </div>
+                <div id="d1">
+                    <input type="text" placeholder="col-1-sm"><br><br>
+                    <input type="text" placeholder="col-1-sm"><br><br>
+                    <input type="text" placeholder="col-1-sm"><br><br>
+                    <input type="text" placeholder="col-1-sm"><br><br>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
